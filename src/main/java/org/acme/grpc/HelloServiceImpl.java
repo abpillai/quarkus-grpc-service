@@ -1,4 +1,10 @@
-package org.acme;
+package org.acme.grpc;
+
+import org.acme.HelloRequest;
+import org.acme.HelloResponse;
+import org.acme.HelloServiceGrpc;
+import org.acme.HelloServiceGrpc.HelloServiceImplBase;
+import org.acme.client.SoapClient;
 
 import io.grpc.stub.StreamObserver;
 import io.quarkus.grpc.GrpcService;

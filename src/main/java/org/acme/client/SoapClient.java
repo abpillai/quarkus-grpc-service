@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.client;
 
 
 import java.io.ByteArrayInputStream;
@@ -7,6 +7,8 @@ import java.io.StringWriter;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.acme.model.HelloSoapRequest;
+import org.acme.model.HelloSoapResponse;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 

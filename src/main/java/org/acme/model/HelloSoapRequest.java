@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.model;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
